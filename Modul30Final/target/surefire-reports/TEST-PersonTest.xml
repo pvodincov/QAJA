@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="PersonTest" time="0.986" tests="6" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="PersonTest" time="0.906" tests="6" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\tester\AppData\Local\Temp\surefire13990869078849291320\surefirebooter14635010494141261528.jar C:\Users\tester\AppData\Local\Temp\surefire13990869078849291320 2022-07-01T11-37-04_828-jvmRun1 surefire16980697544067283647tmp surefire_016410043376338646238tmp"/>
+    <property name="sun.java.command" value="C:\Users\tester\AppData\Local\Temp\surefire14926439375672857376\surefirebooter3045110472382743061.jar C:\Users\tester\AppData\Local\Temp\surefire14926439375672857376 2022-07-01T12-05-02_347-jvmRun1 surefire1629139415558323231tmp surefire_05829921710037809951tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\tester\IdeaProjects\Modul30Final\target\test-classes;C:\Users\tester\IdeaProjects\Modul30Final\target\classes;C:\Users\tester\.m2\repository\org\testng\testng\7.6.0\testng-7.6.0.jar;C:\Users\tester\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\tester\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\tester\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\tester\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\tester\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0-M1\junit-jupiter-5.9.0-M1.jar;C:\Users\tester\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0-M1\junit-jupiter-api-5.9.0-M1.jar;C:\Users\tester\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\tester\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0-M1\junit-platform-commons-1.9.0-M1.jar;C:\Users\tester\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\tester\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0-M1\junit-jupiter-params-5.9.0-M1.jar;C:\Users\tester\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0-M1\junit-jupiter-engine-5.9.0-M1.jar;C:\Users\tester\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0-M1\junit-platform-engine-1.9.0-M1.jar;C:\Users\tester\.m2\repository\org\codehaus\groovy\groovy-all\2.4.16\groovy-all-2.4.16.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\tester\AppData\Local\Temp\surefire13990869078849291320\surefirebooter14635010494141261528.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\tester\AppData\Local\Temp\surefire14926439375672857376\surefirebooter3045110472382743061.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18.0.1.1+2-6"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="isTeenagerTest" classname="PersonTest" time="0.031">
+  <testcase name="isTeenagerTest" classname="PersonTest" time="0.027">
     <failure message="expected:&lt;true&gt; but was:&lt;false&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
 	at PersonTest.isTeenagerTest(PersonTest.java:26)
 ]]></failure>
@@ -67,7 +67,7 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="isTeenagerTest" classname="PersonTest" time="0.002">
+  <testcase name="isTeenagerTest" classname="PersonTest" time="0.001">
     <failure message="expected:&lt;true&gt; but was:&lt;false&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
 	at PersonTest.isTeenagerTest(PersonTest.java:26)
 ]]></failure>
@@ -76,7 +76,7 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
   </testcase>
   <testcase name="isTeenagerTest" classname="PersonTest" time="0.001"/>
   <testcase name="isTeenagerTest" classname="PersonTest" time="0.001"/>
-  <testcase name="isTeenagerTest" classname="PersonTest" time="0.003">
+  <testcase name="isTeenagerTest" classname="PersonTest" time="0.002">
     <failure message="expected:&lt;false&gt; but was:&lt;true&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<false> but was:<true>
 	at PersonTest.isTeenagerTest(PersonTest.java:26)
 ]]></failure>
