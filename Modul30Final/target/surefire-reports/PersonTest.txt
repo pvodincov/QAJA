@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: PersonTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1.024 s <<< FAILURE! - in PersonTest
-isTeenagerTest(PersonTest)  Time elapsed: 0.032 s  <<< FAILURE!
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1.127 s <<< FAILURE! - in PersonTest
+isTeenagerTest(PersonTest)  Time elapsed: 0.026 s  <<< FAILURE!
 java.lang.AssertionError: expected:<true> but was:<false>
 	at PersonTest.isTeenagerTest(PersonTest.java:26)
 

@@ -22,8 +22,8 @@ public class PersonTest {
 
         public void isTeenagerTest (int arg1, boolean arg2){
             boolean result = Person.isTeenager(arg1);
-            System.out.println(result);
-            assertEquals (result,arg2);
+           // System.out.println(result);
+            assertEquals(result,arg2);
 
         }
     }

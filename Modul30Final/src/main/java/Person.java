@@ -2,12 +2,7 @@ public class Person {
     public static boolean isTeenager(int age)
     {
         boolean result;
-        if (age < 19) {
-            result = true;
-        }
-        else {
-            result = false;
-        }
+        result = age < 19;
         return result;
     }
 }
