@@ -14,15 +14,18 @@ public class PersonTest {
                 {13, true},
                 {15, true},
                 {19, true},
-                {30, false}
-        };
+                {30, false},
+                {13.2,true}
 
+
+
+        };
     }
         @Test (dataProvider = "isTeenagerTestAge")
 
         public void isTeenagerTest (int arg1, boolean arg2){
             boolean result = Person.isTeenager(arg1);
-           // System.out.println(result);
+           //System.out.println(result);
             assertEquals(result,arg2);
 
         }
